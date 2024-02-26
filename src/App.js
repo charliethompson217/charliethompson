@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Charlie Thompson</h1>
+      <p>Hello, I am a computer science student in my third year at Cleveland State University.</p>
+      <h2>Links</h2>
+      <a href='https://github.com/charliethompson217'>GitHub</a><br />
+      <a href='https://www.linkedin.com/in/charles-thompson-36735b1ab/'>LinkedIn</a><br />
+      <p ><span className='bold'>Email: </span>charlie@charliethompson.dev</p>
+      
     </div>
   );
 }
-
 export default App;
