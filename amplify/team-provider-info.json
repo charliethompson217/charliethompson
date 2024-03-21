@@ -19,5 +19,26 @@
         }
       }
     }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-charliethompson-prod-42743-authRole",
+      "UnauthRoleArn": "arn:aws:iam::245802128258:role/amplify-charliethompson-prod-42743-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::245802128258:role/amplify-charliethompson-prod-42743-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-charliethompson-prod-42743-deployment",
+      "UnauthRoleName": "amplify-charliethompson-prod-42743-unauthRole",
+      "StackName": "amplify-charliethompson-prod-42743",
+      "StackId": "arn:aws:cloudformation:us-east-2:245802128258:stack/amplify-charliethompson-prod-42743/e475b1b0-e75c-11ee-8d30-0274d6950071",
+      "AmplifyAppId": "d228ceksmn9fxy"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d228ceksmn9fxy",
+          "type": "manual"
+        }
+      }
+    }
   }
 }

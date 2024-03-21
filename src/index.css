@@ -2,12 +2,177 @@ body {
   margin: 0;
 }
 
-.App {
-  margin-left: 5%;
-  margin-top: 5%;
-  margin-right: 5%
+a {
+  color: white;
 }
 
 .bold {
-  font-weight: bolder;
+  font-weight: bolder
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Body {
+  margin-left: 2%;
+  margin-right: 2%;
+  flex: 1;
+  margin-top: 50px;
+}
+
+.Footer {
+  text-align: center;
+  margin-top: auto;
+  position: relative;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(21, 21, 21);
+  color: white;
+  height: 100%;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  z-index: 1000;
+  background-color: rgb(21, 21, 21);
+  font-size: large;
+}
+
+
+.navbar a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.Projects {
+  display: flex;
+}
+
+.project {
+  margin: 30px;
+  padding-bottom: 50px;
+  background: rgb(40, 44, 52);
+  padding: 25px;
+  border-radius: 5%;
+  text-align: center;
+}
+
+.project img {
+  height: 300px;
+  margin-left: 5px;
+}
+
+.project .description {
+  max-width: 500px;
+  text-align: left;
+}
+
+.AboutMe .heading {
+  font-size: 40px;
+}
+
+.AboutMe .paragraph {
+  font-size: 20px;
+}
+
+@media (max-width: 1000px) {
+  .AboutMe_ImageR {
+    display: none;
+  }
+
+  .Footer {
+    display: none;
+  }
+
+  .Body {
+    margin-right: 15%;
+  }
+
+  .Projects {
+    display: block;
+  }
+
+  .project img,
+  .project video {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1000px) {
+  .AboutMe_ImageL {
+    display: none;
+  }
+
+  .navbar a {}
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.contact-form form {
+  background: rgb(40, 44, 52);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+  background-color: rgb(97, 99, 99);
+  font-size: medium;
+
+}
+
+.contact-form textarea {
+  height: 200px;
+}
+
+.warning {
+  color: red;
+}
+
+.contact-form input[type="submit"] {
+  background-color: rgb(97, 218, 251);
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: #7cff96;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 1000px) {
+  .contact-form form {
+    width: 90%;
+    margin-left: 20px;
+  }
 }
