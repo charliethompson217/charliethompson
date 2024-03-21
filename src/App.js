@@ -1,16 +1,38 @@
 import './App.css';
+import {React} from 'react';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+
+import Home from './Home.js';
+import NotFound from './NotFound';
+import Navbar from './Navbar.js';
+import Projects from './Projects.js';
+import ContactMe from './ContactMe.js';
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Charlie Thompson</h1>
-      <p>Hello, I am a computer science student in my third year at Cleveland State University.</p>
-      <h2>Links</h2>
-      <a href='https://github.com/charliethompson217'>GitHub</a><br />
-      <a href='https://www.linkedin.com/in/charles-thompson-36735b1ab/'>LinkedIn</a><br />
-      <p ><span className='bold'>Email: </span>charlie@charliethompson.dev</p>
+
+      <Navbar/>
+
+      <div className='Body'>
+        <Router>
+          <Routes>
+            <Route path="/*" element={<NotFound/>}/>
+            <Route path="/home" element={<Home/>}/>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/projects" element={<Projects/>}/>
+            <Route path="/contact" element={<ContactMe/>}/>
+          </Routes>
+        </Router>
+      </div>
       
+      <div className='Footer'>
+        <p>© 2024 Charles Thompson</p>
+      </div>
+
     </div>
   );
 }
+
 export default App;
