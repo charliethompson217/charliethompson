@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-}
-
 a {
   color: white;
 }
@@ -14,29 +10,24 @@ a {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
 }
 
 .Body {
-  margin-left: 2%;
-  margin-right: 2%;
   flex: 1;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
-.Footer {
-  text-align: center;
-  margin-top: auto;
-  position: relative;
-}
 
 body,
 html {
+  height: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Arial', sans-serif;
   background-color: rgb(21, 21, 21);
   color: white;
-  height: 100%;
+  line-height: 1.5;
 }
 
 .navbar {
@@ -58,15 +49,20 @@ html {
 
 .Projects {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .project {
-  margin: 30px;
+  margin: 15px;
   padding-bottom: 50px;
   background: rgb(40, 44, 52);
   padding: 25px;
   border-radius: 5%;
   text-align: center;
+  max-width: 400px;
+
 }
 
 .project img {
@@ -74,10 +70,16 @@ html {
   margin-left: 5px;
 }
 
-.project .description {
-  max-width: 500px;
-  text-align: left;
+.AboutMe {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 80vh;
+  flex-grow: 1;
 }
+
 
 .AboutMe .heading {
   font-size: 40px;
@@ -92,22 +94,18 @@ html {
     display: none;
   }
 
-  .Footer {
-    display: none;
-  }
-
-  .Body {
-    margin-right: 15%;
-  }
 
   .Projects {
-    display: block;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .project img,
-  .project video {
-    width: 100%;
-    height: auto;
+  .project {
+    width: 80%;
+  }
+
+  .contact-form form {
+    margin: 0 auto;
   }
 }
 
@@ -116,7 +114,9 @@ html {
     display: none;
   }
 
-  .navbar a {}
+  .aboutMeInfo {
+    margin-top: 20%;
+  }
 }
 
 .contact-form {
@@ -124,6 +124,8 @@ html {
   justify-content: center;
   align-items: center;
   margin-top: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .contact-form form {
@@ -167,12 +169,4 @@ html {
 
 .contact-form input[type="submit"]:hover {
   background-color: #7cff96;
-}
-
-/* Responsive design adjustments */
-@media (max-width: 1000px) {
-  .contact-form form {
-    width: 90%;
-    margin-left: 20px;
-  }
 }
