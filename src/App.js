@@ -25,11 +25,10 @@ function App() {
             <Route path="/contact" element={<ContactMe/>}/>
           </Routes>
         </Router>
+        
       </div>
       
-      <div className='Footer'>
-        <p>© 2024 Charles Thompson</p>
-      </div>
+      
 
     </div>
   );
