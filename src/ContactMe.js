@@ -9,7 +9,7 @@ export default function ContactMe() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_kf6jtrt', 'template_v7jwypd', form.current, { publicKey: '6NZH6iulNjK-z6ENA', })
+    emailjs.sendForm('service_5wpq22y', 'template_v7jwypd', form.current, { publicKey: '6NZH6iulNjK-z6ENA', })
       .then(() => {
         setStatus("Email sent succesfuly");
         form.current.reset();
