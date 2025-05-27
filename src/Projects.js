@@ -6,13 +6,14 @@ export default function Projects() {
             
             <div className='Projects'>
                 <div className="project">
+
                     <h2>Sunday School Rank and File</h2>
                     <div>
                         <video
                             width="90%"
                             controls
                         >
-                            <source src="/sundayschoolDemo.mp4" type="video/mp4" />
+                            <source src="/assets/sundayschoolDemo.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
                     </div>
@@ -23,7 +24,6 @@ export default function Projects() {
                             This platform enables users to securely submit weekly picks via a form, which automatically updates their selections in a database.
                             A CSV file, uploaded by the admin, populates the upcoming games and team logos get rendered dynamically.
                             Participants can conveniently view and modify their picks throughout the week, and a final CSV download with everyone's choices is available to the admin.</p>
-                        <p>View Code on <a href="https://github.com/charliethompson217/sunday-school-rank-and-file">GitHub</a><br />View <a href="https://sundayschoolrankandfile.com">Website</a></p>
                     </div>
                 </div>
                 <div className="project">
@@ -32,7 +32,7 @@ export default function Projects() {
                         width="90%"
                         controls
                     >
-                        <source src="/MinesweeperDemo.mp4" type="video/mp4" />
+                        <source src="/assets/MinesweeperDemo.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <div>
@@ -47,14 +47,26 @@ export default function Projects() {
                         width="90%"
                         controls
                     >
-                        <source src="/VikeTweetDemo.mp4" type="video/mp4" />
+                        <source src="/assets/VikeTweetDemo.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <div>
 
                         <p className='description'>This project introduces a serverless web application that democratizes the sharing of text and images. Designed to encourage anonymous participation, it gives users the freedom to share content that is automatically posted to a communal Twitter account.</p>
-                        <p>View Code on <a href="https://github.com/charliethompson217/tweet-commune">GitHub</a><br />View <a href="https://viketweet.com">Website</a><br />View <a href="https://twitter.com/VikeTweet">Twitter Account</a></p>
+                        <p>View Code on <a href="https://github.com/charliethompson217/tweet-commune">GitHub</a></p>
                     </div>
+                </div>
+                <div className="project">
+                    <h1>Audio Visualizer</h1>
+                    <video
+                        width="90%"
+                        controls
+                    >
+                        <source src="/assets/VisualizerDemo.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                    <p className='description'>This React web application enables users to play and visualize audio files, convert audio to MIDI using machine learning, and interact with a customizable synthesizer. Users can upload various audio formats or use their microphone for live input. The synthesizer allows customization of waveforms, timbre, ADSR settings, vibrato, and tremolo, and can be played using the computer keyboard. The app features real-time visualizations, including a custom FFT visualizer, waveform display, and piano roll.</p>
+                    <p>View Code on <a href="https://github.com/charliethompson217/AudioVisualizer">GitHub</a><br></br><p>View <a href="https://audiovisualizer.link">Website</a></p></p>
                 </div>
             </div>
         </>

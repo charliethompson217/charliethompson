@@ -26,19 +26,19 @@ export default function AboutMe() {
     <div className='AboutMe'>
       <div style={leftColumnStyle}>
         <div className='aboutMeInfo'>
-          <p className='heading'>Hello World! I'm a computer science major in my third year at Cleveland State University.</p>
-          <p className='paragraph'>My name is Charlie Thompson and I love coffee and coding.<br /> I am an aspiring software developer who is actively looking for a summer internship.</p>
+          <p className='heading'>Hello World!</p>
+          <p className='paragraph'> I'm a computer science senior at Cleveland State University. <br/>My name is Charlie Thompson and I love coffee and coding.</p>
         </div>
         <div>
-          <img className='AboutMe_ImageL' src='/me.jpg' alt="Charlie Thompson" style={imageStyle} />
+          <img className='AboutMe_ImageL' src='/assets/me.jpg' alt="Charlie Thompson" style={imageStyle} />
         </div>
         <div>
-          <p>Find me on <a href='https://github.com/charliethompson217'>GitHub</a>, or <a href='https://www.linkedin.com/in/charles-thompson-36735b1ab/'>LinkedIn</a><br/>Email me at charlie@charliethompson.dev<br/>Download my <a href='/resume.pdf' download="Charlie_Thompson_Resume">Resume</a> (61 KB)</p>
+          <p>Find me on <a href='https://github.com/charliethompson217'>GitHub</a>, or <a href='https://www.linkedin.com/in/charles-thompson-36735b1ab/'>LinkedIn</a><br/>Email me at charlie@charliethompson.dev<br/>Download my <a href='/assets/resume.pdf' download="Charlie_Thompson_Resume">Resume</a> (64 KB)</p>
         </div>
         
       </div>
       <div style={rightColumnStyle}>
-        <img className='AboutMe_ImageR' src='/me.jpg' alt="Charlie Thompson" style={imageStyle} />
+        <img className='AboutMe_ImageR' src='/assets/me.jpg' alt="Charlie Thompson" style={imageStyle} />
       </div>
       
     </div>

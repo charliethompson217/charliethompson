@@ -1,25 +1,4 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-charliethompson-dev-11255-authRole",
-      "UnauthRoleArn": "arn:aws:iam::245802128258:role/amplify-charliethompson-dev-11255-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::245802128258:role/amplify-charliethompson-dev-11255-authRole",
-      "Region": "us-east-2",
-      "DeploymentBucketName": "amplify-charliethompson-dev-11255-deployment",
-      "UnauthRoleName": "amplify-charliethompson-dev-11255-unauthRole",
-      "StackName": "amplify-charliethompson-dev-11255",
-      "StackId": "arn:aws:cloudformation:us-east-2:245802128258:stack/amplify-charliethompson-dev-11255/ba41d9a0-3cbc-11ee-9525-02204e50dd01",
-      "AmplifyAppId": "d228ceksmn9fxy"
-    },
-    "categories": {
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d228ceksmn9fxy",
-          "type": "manual"
-        }
-      }
-    }
-  },
   "prod": {
     "awscloudformation": {
       "AuthRoleName": "amplify-charliethompson-prod-42743-authRole",
