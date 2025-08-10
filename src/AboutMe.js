@@ -33,7 +33,7 @@ export default function AboutMe() {
           <img className='AboutMe_ImageL' src='/assets/me.jpg' alt="Charlie Thompson" style={imageStyle} />
         </div>
         <div>
-          <p>Find me on <a href='https://github.com/charliethompson217'>GitHub</a>, or <a href='https://www.linkedin.com/in/charles-thompson-36735b1ab/'>LinkedIn</a><br/>Email me at charlie@charliethompson.dev<br/>Download my <a href='/assets/resume.pdf' download="Charlie_Thompson_Resume">Resume</a> (64 KB)</p>
+          <p>Find me on <a href='https://github.com/charliethompson217'>GitHub</a>, or <a href='https://www.linkedin.com/in/charles-thompson-36735b1ab/'>LinkedIn</a><br/>Email me at charlie@charliethompson.dev<br/>Download my <a href='/assets/resume.pdf' download="Charlie_Thompson_Resume">Resume</a> (63 KB)</p>
         </div>
         
       </div>
